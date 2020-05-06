@@ -1,0 +1,117 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100vh;
+}
+
+body {
+	margin: 0;
+	background: rgb(0, 3, 22);
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+	margin: 0;
+}
+
+.position-absolute {
+	position: absolute;
+}
+
+.margin-left-auto { margin-left: auto; }
+.margin-right-auto { margin-right: auto; }
+
+.text-center {
+	text-align: center;
+}
+
+.container {
+	max-width: 1240px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.list-unstyled {
+	list-style-type: none;
+}
+
+.d-inline {
+	display: inline;
+}
+
+.d-inline-block {
+	display: inline-block;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.pull-right {
+	float: right;
+}
+
+.pull-left {
+	float: left;
+}
+
+.mx-2 {
+	margin: auto 1.25rem auto 1.25rem;
+}
+
+.mx-3 {
+	margin: auto 1.50rem auto 1.50rem;
+}
+
+.px-3 {
+	padding: auto 1.50rem auto 1.50rem;
+}
+
+.px-5 {
+	padding: auto 2rem auto 2rem;
+}
+
+.py-2 {
+	padding-top: 1.25rem;
+	padding-bottom: 1.25rem;
+}
+
+.py-5 {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+.row {
+	display: inline-flex;
+	flex-wrap: wrap;
+
+}
+
+.col-4 {
+	position: relative;
+	width: 40%;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.col-8 {
+	position: relative;
+	width: 60%;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.col-12 {
+	position: relative;
+	width: 100%;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
