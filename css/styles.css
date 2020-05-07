@@ -8,8 +8,8 @@ html, body {
 
 body {
 	margin: 0;
-	background: rgb(0, 3, 22);
-	color: white;
+	background: rgb(255, 255, 255, 255);
+	color: black;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -17,8 +17,59 @@ ul {
 	margin: 0;
 }
 
+input {
+	font-size: 17px;
+	padding: 7px 12px;
+	background: linear-gradient(rgb(236, 236, 236), rgb(204, 204, 204));
+	border: 2px solid #ddd;
+}
+
+input:hover, input:focus {
+	background: linear-gradient(rgb(204, 204, 204),rgb(236, 236, 236));
+}
+
+.btn {
+	color: black;
+	border: none;
+	text-align: center;
+  text-decoration: none;
+  display: inline-block;
+	background: rgb(194, 194, 194);
+	font-size: 17px;
+	padding: 8px 14px;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background: rgb(218, 218, 218);
+}
+
+.btn-primary {
+	background: rgb(51, 130, 248);
+	color: white;
+}
+
+.btn-primary:hover {
+	background: rgb(79, 147, 248);
+}
+
+.border {
+	border: 1px solid #ddd;
+}
+
+.bg-grey { background-color: #ddd; }
+
 .position-absolute {
 	position: absolute;
+}
+
+.w-100 {
+	width: 100%;
+}
+
+.h-100 {
+	height: 100%;
 }
 
 .margin-left-auto { margin-left: auto; }
@@ -89,12 +140,36 @@ ul {
 .row {
 	display: inline-flex;
 	flex-wrap: wrap;
+	width: 100%;
+}
 
+.col-2 {
+	position: relative;
+	width: 20%;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .col-4 {
 	position: relative;
 	width: 40%;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.col-5 {
+	position: relative;
+	width: 40%;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.col-6 {
+	position: relative;
+	width: 50%;
 	float: left;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -114,4 +189,13 @@ ul {
 	float: left;
 	padding-left: 15px;
 	padding-right: 15px;
+}
+
+.input-group {
+	padding: 5px 12px;
+}
+
+.input-control {
+	width: 100%;
+	margin-bottom: 5px;
 }
